@@ -6,6 +6,7 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 # build rom
 source build/envsetup.sh
 lunch potato_X00TD-userdebug
+export BUILD_USERNAME=tomcat
 export SELINUX_IGNORE_NEVERALLOWS=true
 export TZ=Asia/Jakarta #put before last build command
 brunch X00TD
