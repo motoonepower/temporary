@@ -1,11 +1,12 @@
 # sync rom
 repo init --depth=1 --no-repo-verify -u https://github.com/LineageOS/android.git -b lineage-18.1 -g default,-mips,-darwin,-notdefault
-git clone https://github.com/RahulPalXDA/local_manifest.git --depth 1 -b lineage_twolip .repo/local_manifests
+git clone https://github.com/RahulPalXDA/local_manifest.git --depth 1 -b lineage-19.0_twolip .repo/local_manifests
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j8
 
 # build rom
 source build/envsetup.sh
 lunch lineage_twolip-userdebug
+export SELINUX_IGNORE_NEVERALLOWS=true
 export TZ=Asia/Kolkata #put before last build command
 brunch twolip
 
