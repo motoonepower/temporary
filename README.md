@@ -1,4 +1,4 @@
-Potato Open Sauce custom ROM for LG V30
+Potato Open Sauce Project custom ROM for LG V30
 ==============================
 
 Potato Open Sauce Project [Custom ROM](https://beebom.com/best-custom-roms-android-phones/) for Redmi Note 4(code name mido)
