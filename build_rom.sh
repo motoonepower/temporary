@@ -10,7 +10,7 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 # export SELINUX_IGNORE_NEVERALLOWS=true
 lunch aosp_beryllium-userdebug
 export TZ=Asia/Dhaka #put before last build command
-export BUILD_HOSTNAME=6e6f6f62
+export BUILD_HOSTNAME=PaperBoy
 make bacon
 
 # upload rom (if you don't need to upload multiple files, then you don't need to edit next line)
