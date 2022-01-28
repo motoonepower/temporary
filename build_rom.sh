@@ -9,7 +9,7 @@ lunch bliss_X00TD-userdebug
 export BUILD_USERNAME=tomcat
 export SKIP_API_CHECKS=true
 export SELINUX_IGNORE_NEVERALLOWS=true
-export TZ=Asia/Jakarta #put before last build command
+export TZ=Asia/Bangkok #put before last build command
 blissify -v X00TD
 
 # upload rom (if you don't need to upload multiple files, then you don't need to edit next line)
