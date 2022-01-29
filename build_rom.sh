@@ -9,6 +9,7 @@ lunch aosp_X00TD-userdebug
 export TZ=Asia/Jakarta #put before last build command
 export BUILD_USERNAME=GeForce-RTX
 export BUILD_HOSTNAME=android_build
+export SKIP_API_CHECKS=true
 export SELINUX_IGNORE_NEVERALLOWS := true
 export WITH_GMS= true
 m aex
