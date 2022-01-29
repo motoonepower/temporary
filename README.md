@@ -7,8 +7,6 @@ Potato Open Sauce Project [Custom ROM](https://beebom.com/best-custom-roms-andro
 
 [Screenshots](https://t.me/Apon77Mido/5270) or [Video](https://www.youtube.com/watch?v=KuQ9jIVmOXY)
 
-Distributed [here](https://t.me/rn4downloads/4885)
-
 Estimated installation no.: 150-50
 
 How to use this repository
