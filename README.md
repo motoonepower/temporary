@@ -7,7 +7,7 @@ Potato Open Sauce Project [Custom ROM](https://beebom.com/best-custom-roms-andro
 
 [Screenshots](https://t.me/Apon77Mido/5270) or [Video](https://www.youtube.com/watch?v=KuQ9jIVmOXY)
 
-How to use this repository
+How to use this
 -------------------
 
 * [Instructions if you want to develop AospExtended custom ROM as a developer](https://github.com/Apon77/mido-AospExtended-Apon77/blob/main/Instructions%20for%20developers.md)
