@@ -1,4 +1,4 @@
-Potato Open Sauce Project custom for LG V30
+Potato Open Sauce Project for LG V30
 ==============================
 
 Potato Open Sauce Project [Custom ROM](https://beebom.com/best-custom-roms-android-phones/) for Redmi Note 4(code name 
