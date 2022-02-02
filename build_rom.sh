@@ -3,11 +3,11 @@ repo init --depth=1 --no-repo-verify -u git://github.com/PixelOS-Pixelish/manife
 git clone https://github.com/sajidshahriar72543/local_manifest.git --depth 1 -b pos .repo/local_manifests
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j8
 
-#59
+#60
 
 # build rom
 . build/envsetup.sh
-export SELINUX_IGNORE_NEVERALLOWS=true
+# export SELINUX_IGNORE_NEVERALLOWS=true
 lunch aosp_beryllium-userdebug
 export TZ=Asia/Dhaka #put before last build command
 export BUILD_HOSTNAME=PaperBoy
