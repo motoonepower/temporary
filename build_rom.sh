@@ -9,7 +9,7 @@ export WITH_GAPPS=true
 export WITH_LAWNCHAIR=true
 export SELINUX_IGNORE_NEVERALLOWS=true
 lunch aosp_ginkgo-userdebug
-export TZ=Asia/Jakarta #put before last build command
+export TZ=Asia/Jakarta #put before last build comman
 make bacon
 
 # upload rom (if you don't need to upload multiple files, then you don't need to edit next line).
