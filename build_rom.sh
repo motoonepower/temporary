@@ -3,7 +3,6 @@ repo init --depth=1 --no-repo-verify -u git://github.com/StatiXOS/android_manife
 git clone https://github.com/D34DPUL/local_manifest_statix.git --depth 1 -b master .repo/local_manifests
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j8
 
-
 # build rom 
 source build/envsetup.sh
 lunch statix_liber-userdebug
