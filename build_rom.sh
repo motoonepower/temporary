@@ -6,6 +6,8 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 # build roms
 source build/envsetup.sh
 lunch xtended_X00TD-userdebug
+export RELAX_USES_LIBRARY_CHECK=true
+export PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 export TZ=Asia/Hanoi #put before last build
 make xtended
 
