@@ -6,8 +6,7 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 # build roms
 source build/envsetup.sh
 lunch xtended_X00TD-userdebug
-export WITH_GAPPS=true
-export TZ=Asia/Bangkok #put before last build
+export TZ=Asia/Hanoi #put before last build
 make xtended
 
 # upload rom (if you don't need to upload multiple files, then you don't need to edit next line)
