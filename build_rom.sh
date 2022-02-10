@@ -7,8 +7,6 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 source build/envsetup.sh
 lunch xdroid_pine-userdebug
 export TZ=Asia/Jakarta #put before last build command
-export BUILD_USERNAME=GeForce-RTX
-export BUILD_HOSTNAME=android_build
 export SELINUX_IGNORE_NEVERALLOWS := true
 make xd
 
