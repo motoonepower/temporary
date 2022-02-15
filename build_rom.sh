@@ -5,7 +5,7 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 
 # build rom
 . build/envsetup.sh
-lunch superior_tulip-user
+lunch superior_tulip-userdebug
 export TZ=Asia/Dhaka #put before last build command
 make bacon
 
