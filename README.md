@@ -10,7 +10,6 @@ deo](https://www.youtube.com/watch?v=KuQ9jIVmOXY)
 Distributed [here](https://t.me/rn4downloads/4885)
 
 Estimated installation no.: 150-500
-
 How to use this repository
 -------------------
 
