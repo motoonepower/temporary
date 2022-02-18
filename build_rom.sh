@@ -7,6 +7,7 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 source build/envsetup.sh
 lunch lighthouse_X00TD-userdebug
 export SELINUX_IGNORE_NEVERALLOWS=true
+export BUILD_USERNAME=tomcat
 export TZ=Asia/Dhaka #put before last build command
 make lighthouse
 
