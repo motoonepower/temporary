@@ -1,12 +1,12 @@
 # sync rom
-repo init --depth=1 --no-repo-verify -u git://github.com/Evolution-X/manifest -b elle -g default,-device,-mips,-darwin,-notdefault
+repo init --depth=1 --no-repo-verify -u git://github.com/Evolution-X/manifest -b elle -g default,-mips,-darwin,-notdefault
 git clone https://github.com/nhAsif/local_manifest.git --depth 1 -b evo .repo/local_manifests
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j8
 
-# build rom-evo
+# build rom
 source build/envsetup.sh
 lunch evolution_rosy-userdebug
-export TZ=Asia/Dhaka
+export TZ=Asia/Dhaka #put before last build command
 mka evolution
 
 # upload rom (if you don't need to upload multiple files, then you don't need to edit next line)
