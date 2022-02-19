@@ -5,10 +5,8 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 
 # build rom
 source build/envsetup.sh
-lunch lineage_sweet-userdebug
-export SELINUX_IGNORE_NEVERALLOWS=true
-export RELAX_USES_LIBRARY_CHECK=true
-export WITH_GMS=true
+lunch lineage_sweet-user
+export WITH_GMS=false
 export TZ=Asia/Dhaka #put before last build command
 make bacon
 
