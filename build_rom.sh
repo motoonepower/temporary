@@ -7,7 +7,8 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 source build/envsetup.sh
 lunch lighthouse_X00TD-userdebug
 export BUILD_USERNAME=tomcat
-export TZ=Asia/Dhaka #put before last build command
+export SELINUX_IGNORE_NEVERALLOWS=true
+export TZ=Asia/Hanoi #put before last build command
 make lighthouse
 
 # upload rom (if you don't need to upload multiple files, then you don't need to edit next line)
