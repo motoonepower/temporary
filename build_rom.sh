@@ -1,14 +1,14 @@
 # sync rom
-repo init --depth=1 --no-repo-verify -u git://github.com/StatiXOS/android_manifest.git -b 11 -g default,-mips,-darwin,-notdefault
+repo init --depth=1 --no-repo-verify -u https://github.com/StatiXOS/android_manifest.git -b sc -g default,-mips,-darwin,-notdefault
 git clone https://github.com/sajidshahriar72543/local_manifest.git --depth 1 -b statix .repo/local_manifests
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j8
 
-#9
+#1
 
 # build rom
 . build/envsetup.sh
 export TZ=Asia/Dhaka #put before last build command
-export BUILD_HOSTNAME=6e6f6f62
+export BUILD_HOSTNAME=PaperBoy
 brunch statix_beryllium-userdebug
 
 # upload rom (if you don't need to upload multiple files, then you don't need to edit next line)
