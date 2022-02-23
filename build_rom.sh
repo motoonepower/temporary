@@ -3,11 +3,11 @@ repo init --depth=1 --no-repo-verify -u git://github.com/Project-Xtended/manifes
 git clone https://github.com/official-mocha/local_manifest.git --depth 1 -b aosp .repo/local_manifests
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j8
 
-
 # build rom
 . build/envsetup.sh
 lunch xtended_tulip-userdebug
 export TZ=Asia/Dhaka #put before last build command
+export WITH_GAPPS=true
 make xtended
 
 # upload rom (if you don't need to upload multiple files, then you don't need to edit next line)
