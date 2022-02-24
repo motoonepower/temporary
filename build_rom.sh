@@ -6,9 +6,9 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 # build rom
 source build/envsetup.sh
 lunch rr_X00TD-userdebug
-export BUILD_USERNAME=venom
-export BUILD_HOSTNAME=carnage
-export TZ=Asia/Tokyo #put before last build command
+export BUILD_USERNAME=tomcat
+export BUILD_HOSTNAME=sipet
+export TZ=Asia/Hanoi #put before last build command
 mka bacon
 
 # upload rom (if you don't need to upload multiple files, then you don't need to edit next line)
