@@ -1,11 +1,11 @@
 # sync rom
 repo init --depth=1 --no-repo-verify -u git://github.com/lighthouse-os/manifest.git -b sailboat -g default,-mips,-darwin,-notdefault
-git clone https://github.com/Lucifer-morning-star-96/frostmanifest.git --depth 1 -b lighthouse .repo/local_manifests
+git clone https://github.com/MukulSharma06175/Local-Manifests.git --depth 1 -b main .repo/local_manifests
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j8
                                               
 # build rom
 source build/envsetup.sh
-lunch lighthouse_lavender-userdebug
+lunch lighthouse_lavender-user
 export TZ=Asia/Kolkata #put before last build command
 make lighthouse
 
