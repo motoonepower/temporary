@@ -7,6 +7,7 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 source build/envsetup.sh
 export WITH_GAPPS=true
 export SELINUX_IGNORE_NEVERALLOWS=true
+export USE_PIXEL_LAUNCHER=true
 lunch aosp_ginkgo-userdebug
 export TZ=Asia/Jakarta #put before last build command
 make bacon
