@@ -7,7 +7,7 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 source build/envsetup.sh
 lunch potato_lavender-user
 export TZ=Asia/Kolkata #put before last build command
-#export WITH_GMS=true
+export WITH_GMS=true
 brunch lavender
 
 
