@@ -5,9 +5,9 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 
 # build rom
 source build/envsetup.sh
-lunch amy_X00TD-eng
-export BUILD_USERNAME=venom
-export TZ=Asia/Jakarta #put before last build command
+lunch amy_X00TD-userdebug
+export BUILD_USERNAME=tomcat
+export TZ=Asia/Hanoi #put before last build command
 m bacon
 
 # upload rom (if you don't need to upload multiple files, then you don't need to edit next line)
