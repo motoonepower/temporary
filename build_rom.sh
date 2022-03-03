@@ -1,11 +1,11 @@
 # sync rom
 repo init --depth=1 --no-repo-verify -u https://github.com/ForkLineageOS/android.git -b lineage-19.0 -g default,-mips,-darwin,-notdefault
-git clone https://github.com/TheShadowXP/local_manifest.git --depth 1 -b flos-12 .repo/local_manifests
+git clone https://github.com/TheShadowXP/local_manifest.git --depth 1 -b 12 .repo/local_manifests
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j8
 
 # build rom
 source build/envsetup.sh
-lunch lineage_vince-userdebug
+lunch lineage_vince-eng
 export TARGET_FLOS=true
 export SELINUX_IGNORE_NEVERALLOWS=true
 export TZ=Asia/Dhaka #put before last build command
