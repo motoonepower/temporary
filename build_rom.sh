@@ -7,7 +7,6 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 source build/envsetup.sh
 lunch rr_X00TD-userdebug
 export BUILD_USERNAME=tomcat
-export BUILD_HOSTNAME=sipet
 export TZ=Asia/Hanoi #put before last build command
 mka bacon
 
