@@ -1,7 +1,7 @@
 Potato Open Sauce Project for LG V30
 ==============================
 
-Potato Open Sauce Project [Custom ROM](https://beebom.com/best-custom-roms-android-phones/) for Note 4(code 
+Potato Open Sauce Project [Custom ROM](https://beebom.com/best-custom-roms-android-phones/) for Note (code 
 
 [Features as video](https://www.youtube.com/watch?v=KuQ9jIVmOXY) or [Features as text](https://forum.xda-developers.com/t/rom-11-0-aospextended-rom-v8-0-unofficial-surya.4202905/)
 
