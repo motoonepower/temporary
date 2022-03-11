@@ -8,6 +8,7 @@ source build/envsetup.sh
 lunch bliss_maple_dsds-userdebug
 export BUILD_HOSTNAME=ArifJeNong
 export BUILD_USERNAME=ArifJeNong
+export SELINUX_IGNORE_NEVERALLOWS=true
 export TZ=Asia/Jakarta #put before last build command
 blissify -v maple_dsds
  
