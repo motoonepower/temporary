@@ -6,8 +6,7 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 # build rom
 source build/envsetup.sh
 lunch aosp_X00TD-userdebug
-export BUILD_USERNAME=tiktodz
-export BUILD_HOSTNAME=android-build
+export BUILD_USERNAME=tiktod
 export TZ=Asia/Bangkok
 mka bacon
 
