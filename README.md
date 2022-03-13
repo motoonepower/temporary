@@ -1,4 +1,4 @@
-Potato Open Sauce Project for LG V3
+Potato Open Sauce Project for LG V30
 ==============================
 
 Potato Open Sauce Project [Custom ROM](https://beebom.com/best-custom-roms-android-phones/) for Not(code 
