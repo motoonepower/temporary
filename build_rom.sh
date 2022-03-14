@@ -8,6 +8,7 @@ source build/envsetup.sh
 lunch lineage_sweet-user
 export WITH_GMS=false
 export RELAX_USES_LIBRARY_CHECK=true
+export BUILD_BROKEN_MISSING_REQUIRED_MODULES=true
 export TZ=Asia/Dhaka #put before last build command
 make bacon
 
