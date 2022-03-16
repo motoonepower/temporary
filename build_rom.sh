@@ -7,7 +7,6 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 source build/envsetup.sh
 lunch xdroid_X00TD-userdebug
 export BUILD_USERNAME=tomcat
-export BUILD_BROKEN_MISSING_REQUIRED_MODULES=true
 export SELINUX_IGNORE_NEVERALLOWS=true
 export TZ=Asia/Hanoi #put this before last build command
 make xd
