@@ -8,7 +8,7 @@ source build/envsetup.sh
 lunch rr_X00TD-userdebug
 export SELINUX_IGNORE_NEVERALLOWS=true
 export BUILD_USERNAME=tomcat
-export TZ=Asia/Hanoi #put before last build command
+export TZ=Asia/Hanoi #put this before last build command
 mka bacon
 
 # upload rom (if you don't need to upload multiple files, then you don't need to edit next line)
