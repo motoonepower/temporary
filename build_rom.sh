@@ -8,7 +8,6 @@ source build/envsetup.sh
 lunch xdroid_X00TD-userdebug
 export BUILD_USERNAME=tomcat
 export SELINUX_IGNORE_NEVERALLOWS=true
-export ALLOW_MISSING_DEPENDENCIES=true
 export TZ=Asia/Hanoi #put before last build command
 make xd
 
