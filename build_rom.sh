@@ -1,9 +1,9 @@
-# sync rom
+# sync roms
 repo init --depth=1 --no-repo-verify -u https://github.com/CarbonROM/android.git -b cr-9.0 -g default,-mips,-darwin,-notdefault
 git clone https://github.com/Tiktodz/local_manifest.git --depth 1 -b carbon .repo/local_manifests
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j8
 
-# build rom
+# build roms
 source build/envsetup.sh
 lunch carbon_X00TD-userdebug
 export BUILD_USERNAME=tiktod
