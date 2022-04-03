@@ -11,7 +11,7 @@ export KBUILD_BUILD_HOST=rushiranpise
 export BUILD_USERNAME=rushiranpise
 export BUILD_HOSTNAME=rushiranpise
 export SELINUX_IGNORE_NEVERALLOWS=true
-export GAPPS_BUILD=true
+export WITH_GAPPS=true
 export TZ=Asia/Kolkata #put before last build command
 m otapackage
 
