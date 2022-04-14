@@ -6,7 +6,6 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 # build rom
 source build/envsetup.sh
 lunch fuse_X00TD-userdebug
-export WITH_GAPPS := true
 export TZ=Asia/Jakarta #put this before last build command
 make fuse-prod
 
