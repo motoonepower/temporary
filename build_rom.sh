@@ -3,10 +3,10 @@ repo init --depth=1 --no-repo-verify -u https://github.com/ProjectBlaze/manifest
 git clone https://github.com/AbrarNoob/local_manifest --depth 1 -b blaze2 .repo/local_manifests
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j8
 
+
 # build roms
 source build/envsetup.sh
 lunch blaze_alioth-userdebug
-export WITH_GAPPS=true
 export TZ=Asia/Tokyo #put before last build command
 brunch alioth
 
